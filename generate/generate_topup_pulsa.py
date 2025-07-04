@@ -33,7 +33,7 @@ def random_datetime(normal=True):
     return datetime(2024, random.randint(1, 6), random.randint(1, 28), hour, random.randint(0, 59)).isoformat()
 
 def generate_msisdn():
-    return "08" + str(random.randint(1000000000, 9999999999))
+    return "08999" + str(random.randint(10000000, 99999999))
 
 def generate_serial_number(suspicious=False):
     if suspicious:
